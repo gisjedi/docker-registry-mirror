@@ -9,7 +9,7 @@ There are 2 components:
 
 This setup exploits the Docker default to trust a localhost registry without any daemon configuration. We can deploy an internal registry mirror painlessly in a DC/OS cluster as follows:
 
-registry-mirror:
+registry-mirror marathon.json:
 
 ```
 {
@@ -52,7 +52,7 @@ registry-mirror:
 }
 ```
 
-registry-proxy:
+registry-proxy marathon.json:
 
 ```
 {
