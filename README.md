@@ -7,7 +7,7 @@ There are 2 components:
 * A registry image configured for mirroring
 * A haProxy image configured to proxy the registry mirror
 
-This setup exploits the Docker default to trust a localhost registry without any daemon configuration. We can deploy an internal registry mirror painleslly in a DC/OS cluster as follows:
+This setup exploits the Docker default to trust a localhost registry without any daemon configuration. We can deploy an internal registry mirror painlessly in a DC/OS cluster as follows:
 
 registry-mirror:
 
